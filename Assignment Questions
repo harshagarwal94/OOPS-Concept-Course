@@ -1,0 +1,64 @@
+Take three words as input from the user. Arrange them in alphabetical order and display to the user.
+
+
+Write a program that calculates the average time in seconds spent by the user on the homepage of VIT website.
+This metric is called website traffic metric and is helpful in improving the effectiveness of the website. 
+The user should be asked to enter time spent in seconds for the last 10 visitors and then display the average
+time spent.
+
+
+Create a UML Class Diagram for a class named Pizza. Data fields include a String for toppings (such as “olives”),
+an integer for diameter in inches (such as 12), and a double for price (e.g. 13.99).
+Include a method that displays the values for each of these fields.
+Give reasoning for the access specifiers you choose for each member.
+
+
+Create an Account class that a bank might use to represent customers’ bank accounts. 
+Include a data member to represent the account balance. Provide a constructor that receives an initial balance
+and uses it to initialize the data member. 
+Provide three member functions. Member function credit should add an amount to the current balance. 
+Member function debit should withdraw money from the Account and ensure that the debit amount does not exceed the Account’s balance. 
+If it does, the balance should be left unchanged and the function should print a message indicating
+"Debit amount exceeded account balance." Member function getBalance should return the current balance. 
+Create a program that creates an Account object and tests the member functions of class Account.
+
+
+Create a class named Circle with fields named radius, circumference, and area.
+Include a constructor that sets the radius to 1.
+Also include a method named setRadius() to set the value of radius. 
+Also create a calcDimensions() method to calculate the circumference and area of the circle. 
+Create a display() method to display all the values to the user.
+In the main() method create two Circle objects. Using the setRadius() method, 
+assign one Circle object a radius value that is received from the user. For the second object, 
+do not assign a value to the radius; instead, use the value assigned at construction.
+Display all the values for the two Circle objects.
+
+
+Leap Year Validation: Write a program that checks whether a particular year is a leap year or not. 
+Prompt the user to enter a year to check whether it is a leap year. 
+Please display appropriate messages to the user based on the result. 
+(It is a leap year if it is evenly divisible by 4. However, if the year is evenly divisible by 100, 
+then it is NOT a leap year, unless it is also evenly divisible by 400)
+Test value - 2100 is not a leap year.
+Note: Evenly divisible means when divided by a number, it does not leave any remainder.
+
+
+You have to design an Account class. It should have three data members: user id(int), first name(string), 
+last name(string) and account balance (double – protected field).
+It should have a constructor that receives values for all the parameters and initializes them. 
+It should have three member functions. Member function credit should take the amount to be credited as a 
+parameter and return the modified account balance. Member function debit should take the amount to be debited 
+as a parameter and return the modified account balance. Member function getBalance should return the current balance.
+Create a UML class diagram for the same.
+
+
+Illustrate, with the help of an example code, the process of using a default argument function.
+
+
+A) Create a class named Painting that contains fields for a painting’s title, artist, 
+medium (such as water color), price, and gallery commission. 
+Create a constructor that initializes each field to the values sent as arguments except the gallery commission. 
+Calculate the gallery commission as 20 percent of the price in the constructor. 
+Create get member functions that return the fields for title, artist, medium, and price.
+B) In the main function, prompt the user to enter the values for the painting’s title, artist, medium (such as water color), price.
+Create an object of the Painting class and supply the user input.
