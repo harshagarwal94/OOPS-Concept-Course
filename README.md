@@ -71,3 +71,43 @@ and Random files – writing and reading objects into/from files – binary file
 
 ```
 
+#### Login functionality
+```
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+const string username="admin",password="admin";
+string userid,pass;
+for(int attempt=1;attempt<=3;attempt++)
+{
+cout<<"Please enter user id";
+cin>>userid;
+cout<<"Please enter password";
+cin>>pass;
+if(userid.compare(username)==0 && pass.compare(password)==0)
+{
+cout<<"Welcome";
+break;
+}
+else if(attempt<3)
+{
+cout<<"Incorrect userid/password! Please enter again\n";
+}
+if(attempt==3)
+{
+cout<<"Your account is locked";
+}
+}
+return 0;
+}
+```
+
+
+
+# Disclaimer
+
+* Use only for Educational Purpose
+* MIT LICENSED
