@@ -1,7 +1,7 @@
 # C++-Course
 Gives Information about C++ and OOPS Concept from VIT (VIT BHOPAL UNIVERSITY)
 
-### Course Instructor:- Dr. Shreyasi Mam
+### Course Instructor:- Dr. Shreyasi Mam and Dr. L. Sathish Kumar 
 
 # Course Overview
 
