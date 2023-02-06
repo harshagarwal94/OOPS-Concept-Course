@@ -334,4 +334,4 @@ cout<<"Exception handled in main";
 # Disclaimer
 
 * Use only for Educational Purpose
-* MIT LICENSED
+* Open source LICENSED
